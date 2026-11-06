@@ -1,0 +1,5 @@
+{
+  "Train":{"base_cost":1800,"description":"Rail journey; economical and generally suitable for student travel."},
+  "Bus":{"base_cost":1200,"description":"Road journey; economical with broad coverage."},
+  "Flight":{"base_cost":6500,"description":"Fastest mode; usually the highest illustrative cost."}
+}

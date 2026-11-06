@@ -1,0 +1,49 @@
+
+# Python cache files - ignore at every directory level
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+*.py[cod]
+
+# Virtual environments
+**/venv/
+**/.venv/
+**/env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Jupytes
+.ipynb_checkpoints/
+
+# Database files
+*.sqlite3
+*.db

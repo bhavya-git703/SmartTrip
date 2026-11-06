@@ -1,0 +1,8 @@
+[
+ {"id":"R1","if":{"destination_cost_lte_budget":true},"then":"destination_is_affordable","explanation":"The destination estimate fits the user's budget."},
+ {"id":"R2","if":{"interest_match":true},"then":"destination_is_relevant","explanation":"At least one user interest matches the destination."},
+ {"id":"R3","if":{"transport_available":true},"then":"transport_is_suitable","explanation":"The preferred transport is available for the destination."},
+ {"id":"R4","if":{"destination_is_affordable":true,"destination_is_relevant":true,"transport_is_suitable":true},"then":"recommend_destination","explanation":"The destination is affordable, relevant and transport-compatible."},
+ {"id":"R5","if":{"user_interest":"Adventure"},"then":"adventure_activities_relevant","explanation":"Adventure-tagged activities can satisfy the user's interest."},
+ {"id":"R6","if":{"travel_preference":"Budget"},"then":"prioritize_budget_accommodation","explanation":"Budget trips prioritize hostel or other low-cost accommodation."}
+]

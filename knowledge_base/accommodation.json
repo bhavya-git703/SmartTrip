@@ -1,0 +1,7 @@
+[
+  {"type":"Hotel","cost_per_night":1800,"comfort":"Balanced","style":"Comfortable private rooms"},
+  {"type":"Homestay","cost_per_night":1200,"comfort":"Balanced","style":"Local family accommodation"},
+  {"type":"Hostel","cost_per_night":700,"comfort":"Budget","style":"Shared or dormitory rooms"},
+  {"type":"Resort","cost_per_night":3500,"comfort":"Comfort","style":"Premium resort facilities"},
+  {"type":"Hotel","cost_per_night":2600,"comfort":"Comfort","style":"Comfort hotel with amenities"}
+]
